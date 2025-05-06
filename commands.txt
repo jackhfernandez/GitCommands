@@ -1,0 +1,19 @@
+Subir repo a GitHub
+
+1. New repo > Create
+2. Open folder > Git Bash Here  
+3. git init  
+4. git add .  
+5. git commit -m "First commit..."  
+6. git branch -M main  
+7. git remote add origin git@github.com...  
+8. git push -u origin main  
+9. Refresh GitHub
+
+
+Crear y trabajar en la nueva rama
+
+1. git checkout -b <newBranch>  
+2. git add .  
+3. git commit -m "nuevos cambios"  
+4. git push origin <newBranch>
