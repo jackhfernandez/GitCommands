@@ -11,9 +11,8 @@ Subir repo a GitHub
 9. Refresh GitHub
 
 
-Crear y trabajar en la nueva rama
-
-1. git checkout -b <newBranch>  
-2. git add .  
-3. git commit -m "nuevos cambios"  
-4. git push origin <newBranch>
+Crear y cambiar a la nueva rama
+// checkout desde 2019 ya no se utiliza porque realiza
+// muchas tareas. Lo recomendable es adecuarse a los nuevos comandos
+// git checkout -b <newBranch> 
+    git switch -c <newBranch>
