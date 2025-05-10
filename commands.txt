@@ -16,3 +16,9 @@ Crear y cambiar a la nueva rama
 // muchas tareas. Lo recomendable es adecuarse a los nuevos comandos
 // git checkout -b <newBranch> 
     git switch -c <newBranch>
+
+Traer cambios del repositorio remoto,
+al repositorio local
+ - git remote -v // Muestra repo remoto enlazado
+ - git fetch     // Descargar cambios a local
+ - git pull      // Combinar cambios
